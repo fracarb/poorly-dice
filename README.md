@@ -23,9 +23,9 @@ poorly_dice(dice_inputs, plot_type, num_rolls, percentile, probability)
   
 - **num_rolls**: an integer indicating the total number of rolls to perform.
 
-- **percentile**: a vector of percentiles to plot as vertical lines in the graph (e.g., `[25, 50, 75]` for the 20-th 50-th and 75-th percentiles).
+- **percentile**: a vector of percentiles to plot as vertical lines in the graph (e.g., `[25, 50, 75 ...]` for the 20-th 50-th and 75-th percentiles).
 
-- **probability**: a vector of probabilities to plot as horizontal lines in the graph (e.g., `[0.1, 0.2]`) for the 10% or 20%.
+- **probability**: a vector of probabilities to plot as horizontal lines in the graph (e.g., `[0.1, 0.2, 0.5, 0.75 ...]`) for the 10%, 20%, 50% or 75%.
 
 ### Output
 The function returns two outputs:
