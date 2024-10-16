@@ -62,6 +62,9 @@ function [edges, probabilities] = poorly_dice(dice_inputs, plot_type, varargin)
 
     % Imposta il titolo per il grafico
     title_text = sprintf('Distribuzione dei Risultati (%s)', strjoin(dice_inputs, ' + '));
+    title_text = strrep (title_text, '+ +', '+ ');
+    title_text = strrep (title_text, '+ -', '- ');
+
 
     % Gestisci il tipo di plot
     figure;
