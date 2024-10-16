@@ -52,3 +52,12 @@ poorly_dice({'2d6', '+3'}, 'normal', 10000, [25, 50, 75], [1/4, 1/2]);
 
 In this example, the function simulates the rolling of two six-sided dice, adds 3 to the results, and generates a graph of the normal distribution of the results.
 
+![Alt text](2d6_plus3.jpg)
+
+```matlab
+poorly_dice({'2d6', '+3'}, 'at least', 10000, [25, 50, 75], [1/4, 1/2]);
+```
+
+In this example, the function simulates the rolling of two six-sided dice, adds 3 to the results, and generates a graph of the "at least" distribution of the results.
+
+![Alt text](2d6_plus3_at_least.jpg)
