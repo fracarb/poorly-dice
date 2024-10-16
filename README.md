@@ -69,3 +69,10 @@ poorly_dice({'1d20', '1d4', '+3'}, 'at least', 10000, [25, 50, 75], [1/4, 1/2]);
 In this example, the function simulates the rolling of 1 twenty-sided dice, adds 1 four-sided dice and add 3 to the results, and generates a graph of the "at least" distribution of the results.
 
 ![Alt text](1d20_plus_1d4_plus_3_at_least.jpg)
+
+Other examples:
+
+![Alt text](3d6.jpg)
+![Alt text](d6_minus_d6.jpg)
+
+
