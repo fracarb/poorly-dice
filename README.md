@@ -47,7 +47,7 @@ The graphs will also include summary statistics such as mean, median, standard d
 ### Example Usage
 
 ```matlab
-poorly_dice({'2d6', '+3'}, 'normal', 10000, [25, 50, 75], [0.1, 0.2]);
+poorly_dice({'2d6', '+3'}, 'normal', 10000, [25, 50, 75], [1/4, 1/2]);
 ```
 
 In this example, the function simulates the rolling of two six-sided dice, adds 3 to the results, and generates a graph of the normal distribution of the results.
