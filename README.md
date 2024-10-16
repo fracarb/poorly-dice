@@ -2,7 +2,7 @@
 
 **A poor man version of anydice for dice rolling probabilities in MATLAB/OCTAVE.**
 
-The `poorly_dice` function simulates dice rolls and calculates various statistics of the distribution of results. It is designed to accept input in specific formats and generate representative graphs of the distribution.
+The `poorly_dice` function simulates dice rolls and calculates various statistics related to the dice roll distribution. It is designed to accept input in specific formats and generate representative graphs depicting the distribution.
 
 ## Function
 
